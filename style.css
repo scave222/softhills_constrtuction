@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;}
 .register{padding: 30px;border: 3px  solid lightgrey; border-radius: 5%; 
-  text-align: center;background-color: whitesmoke;width: 100%;}
+  text-align: center;background-image: linear-gradient( rgb(1, 15, 14), hsla(0, 1%, 41%, 0.829));width: 100%;}
 .r{background-color: grey; border-radius:10%;text-align: center;padding:0 15px;border: 3px  solid lightgrey;}
 .date{background-color: aliceblue;}
  
