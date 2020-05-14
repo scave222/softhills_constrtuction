@@ -8,28 +8,19 @@
     <link rel="stylesheet" type="text/css"  href="style.css">
     <title>Workers</title>
 </head>
-<body class="bg-dark">
-    <div class="pos-f-t">
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </nav>
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-                <ul class="nav text-center">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="activities.html" class="nav-link">Activities</a></li>
-                    <li class="nav-item"><a href="roles.html" class="nav-link ">Roles</a></li>
-                    <li class="nav-item"><a href="projects.html" class="nav-link ">Projects</a></li>
-                    <li class="nav-item"><a href="workers.html" class="nav-link ">Workers</a></li>
-                    <li class="nav-item"><a href="schedule.html" class="nav-link ">Schedule</a></li>
-                </ul>       
-          </div>
-        </div>
+<body class="bg-dark"><nav>
+        <ul class="nav text-center float-right pt-4">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link ">Create Project</a></li>
+            <li class="nav-item"><a href="schedule.html" class="nav-link ">Create Schedule</a></li>
+        </ul>
+        </nav> 
+    <div class="">
+      <h1 class="pl-4 bg pt-4 font-italic font-weight-bolder">Softhills</h1>
+     
       </div>
-      <h1 class="text-center bg pt-4 font-italic font-weight-bolder">Softhills construction company</h1>
+    </div>
 
       <h3 class="text-center text-info font-italic">Workers</h3>
       <section>
@@ -39,21 +30,49 @@
               <div class="col-md-3"></div>
             
               <div class="dar  col-md-6">
-                  <form method="POST" class="register text-info"> 
-                      <select name="activities" id="act" class="btn btn-secondary">
-                          <option value="">Segun Afolabi</option>
-                          <option value="">Joseph Yisa</option>
-                          <option value="">Abiodun Mathew</option>
-                          <option value="">Haruna Yusuf</option>
-                          <option value="">Abayomi Ogwubor</option>
-                          <option value="">Folorunsho Samuel</option>
-                          <option value="">Michael Mark</option>
-                          <option value="">Florence Jerimiah</option>
-                          <option value="">Micah Bolu</option>
-                          <option value="">Chimezie Chindum</option>
-                      </select><br><br>
+                  <form method="POST" class="register text-info">
+
+                      <label for="Micah Bolu">
+                        <h5>Micah Bolu <input type="checkbox" value="1"></h5>
+                      </label><br>
+
+                      <label for="Joseph Yisa">
+                        <h5>Joseph Yisa <input type="checkbox" value="2"></h5>
+                      </label><br>
+
+                      <label for="Haruna Yusuf">
+                        <h5>Haruna Yusuf <input type="checkbox" value="3"></h5>
+                      </label><br>
+
+                      <label for="Michael Mark">
+                        <h5>Michael Mark <input type="checkbox" value="4"></h5>
+                      </label><br>
+
+                      <label for="Segun Afolabi">
+                        <h5>Segun Afolabi <input type="checkbox" value="5"></h5>
+                      </label><br>
+
+                      <label for="Abiodun Mathew">
+                        <h5>Abiodun Mathew <input type="checkbox" value="6"></h5>
+                      </label><br>
+
+                      <label for="Florence Jerimiah">
+                        <h5>Florence Jerimiah <input type="checkbox" value="9"></h5>
+                      </label><br>
+
+                      <label for="Abayomi Ogwubor">
+                        <h5>Abayomi Ogwubor <input type="checkbox" value="7"></h5>
+                      </label><br>
+
+                      <label for="Chimezie Chindum">
+                        <h5>Chimezie Chindum <input type="checkbox" value="8"></h5>
+                      </label><br>
+
+                      <label for="Folorunsho Samuel">
+                        <h5>Folorunsho Samuel <input type="checkbox" value="10"></h5>
+                      </label><br>
                      
-                      <input class="r" type="submit" value="submit">
+                      <input class="bg-info" type="button" value="select workers" onclick="document.location='schedule.html'">
 
               
                   </form>
